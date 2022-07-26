@@ -1,0 +1,27 @@
+.button {
+  text-decoration: none;
+  border-left: 5px solid rgb(164, 27, 27);
+  background-color: white;
+  color: rgb(164, 27, 27);
+  display: flex;
+  text-align: center;
+  display: block;
+  width: 300px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+.button:hover {
+  background-color: rgb(164, 27, 27);
+  color: white;
+  border-left: 5px solid rgb(225, 142, 142);
+}
+
+.buttons {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(230, 204, 204);
+  padding: 20px;
+}
